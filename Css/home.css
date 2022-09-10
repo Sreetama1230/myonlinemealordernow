@@ -1,0 +1,43 @@
+@keyframes changecolor{
+	to{background-color:rgb(153, 204, 255) ;color: white;}
+	from{background-color: rgb(153, 51, 255);color: white;}
+}
+
+@keyframes changecolor2{
+	to{background-color: rgb(255, 204, 0); color: white;}
+	from{background-color: rgb(51, 204, 255); color: ivory;}
+}
+
+#navbar ul li a:hover{
+    color:white;
+    background-color: blue;
+    border-radius: 50px;
+   
+}
+.accordion-item{
+	cursor: pointer;
+}
+.h1-primary{
+	position: relative;
+	animation-name: changecolor;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+
+}
+.h5-primary{
+	position: relative;
+	animation-name: changecolor2;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+}
+#logo{
+    margin: 10px 20px;
+}
+#logo img{
+
+    height: 62px;
+    margin: 3px 4px;
+}
+

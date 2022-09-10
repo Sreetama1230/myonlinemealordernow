@@ -1,0 +1,120 @@
+
+*{
+	margin :0;
+	padding: 0;
+}
+body{
+	background: url('../images/bg.jpeg ')center/cover ;
+	font-family: sans-serif;
+}
+.contact-box{
+	width: 500px;
+	background-color: #fff;
+	box-shadow: 0 0 20px 0 #999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	margin-top: 80px;
+}
+form{
+	margin: 35px;
+}
+.input-field{
+
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #777;
+	border-radius: 14px;
+	outline: none;
+
+}
+.textarea-field{
+	height: 150px;
+	padding-top: 10px;
+
+}
+.btn{
+	border-radius: 20px;
+	color:#fff;
+	margin-top: 18px;
+	padding: 10px;
+	background-color: #47c35a;
+	font-size: 12px;
+	border: none;
+	cursor: pointer;
+	
+}
+
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*CSS Variables*/
+:root{
+    --navbar--height: 59px;
+}
+/*Navigation Bar*/
+
+/*Navigation Bar: Logo and Image*/
+#logo{
+    margin: 10px 20px;
+}
+#logo img{
+
+    height: 62px;
+    margin: 3px 4px;
+}
+
+
+/*Navigation Bar: List Styling*/
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+   
+}
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+ #navbar ::before{
+    content:"";
+    position: absolute;
+    height:60%;
+    width: 100%;
+    z-index: -1;
+   
+} 
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-family: 'Baloo 2 ', cursive;
+}
+#navbar ul li a:hover{
+    color:rgb(27, 196, 238);
+    background-color: black;
+   
+}

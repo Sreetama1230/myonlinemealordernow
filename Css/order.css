@@ -1,0 +1,52 @@
+@keyframes change-color{
+	
+	0% {background-color: red;}
+	10%{background-color: orange;}
+	20%{background-color: yellow;}
+	40% {background-color: green;}
+	50% {background-color:indigo ;}
+	60% {background-color:blue ;}
+	70% {background-color: purple;}
+	100%{background-color: pink;}
+
+}
+
+body{
+	background:url('../images/b3.jpeg') no-repeat center center/cover;
+}
+
+.card-img-top{
+	height: 200px;
+	width: 307px;
+}
+.space{
+	margin-left: 80px;
+	margin-right: 50px;
+}
+
+.color:hover{
+	background-color: red;
+	 color: white;
+	
+}
+.color1:hover{
+	background-color: #ff9900;
+	color: white;
+}
+.color2:hover{
+
+background-color:#33cc33;
+color: white;
+}
+.color3:hover{
+	background-color: #ff0066;
+	color: white;
+}
+.h1-pri{
+
+	position: relative;
+	animation-name: change-color;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+
+}
